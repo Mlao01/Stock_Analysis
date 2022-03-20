@@ -1,4 +1,5 @@
 #Stock Analysis
+
 ## Overview of the Project:
 Steve recently graduated with a finance degree. His parents are so proud that they decided to be his first client. Steve's parents are passionate about green energy and believe that it is the future. Without much knowledge of the industry, they invested all their money into Daqo New Energy Corporation (ticker: DQ), a company that makes silicon wafers for solar panels. Steve is concerned about diversifying their funds. He wants to analyze a handful of green stocks including DQ.
 
@@ -17,7 +18,6 @@ Regarding the performance of the code, the original code performed poorly agains
 
 As for the 2018 dataset, the original execution time is at 0.925 and the Refactored time is at 0.125. In this case, the refactored code is 7.4 times faster than the original code. 
 ![VBA_Challenge_2018](Stock_Analysis/Resources/ VBA_Challenge_2018.png)
-
 ![Original_Execution_Timing_2018](Stock_Analysis/Resources/Original_Execution_Timing_2018.png)
 ![Refactored_Execution_Timing_2018](Stock_Analysis/Resources/Refactored_Execution_Timing_2018.png)
 
