@@ -9,18 +9,24 @@ Steve has created an excel file containing the stock data he wants analyzed. Usi
 ## Results
 The chart below shows the summary of the calculations Steve specified in his request. It lists each ticker’s total daily volume and the return ((Ticker end price/Ticker start price) -1). 
 In terms of stock performance, it seems that 2017 was a bullish year for the green energy sector.
+
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.PNG)
 
 In comparison, 2018 the green energy stocks steve chose performed poorly.
+
 ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.PNG)
 
 Regarding the performance of the code, the original code performed poorly against the refactored code (see screenshots below).  To compare the speed between the code, we take the timings of the original code and then divide it by the timings of the refactored code. Therefore, 0.894/0.128 which is equal to 7.21. This means that the refactored code executed 7.21 times faster than the original code for the 2017 dataset.
+
 ![Original_Execution_Timing_2017](Resources/Original_Execution_Timing_2017.PNG)
+
 ![Refactored_Execution_Timing_2017](Resources/Refactored_Execution_Timing_2017.PNG)
 
 
 As for the 2018 dataset, the original execution time is at 0.925 and the Refactored time is at 0.125. In this case, the refactored code is 7.4 times faster than the original code. 
+
 ![Original_Execution_Timing_2018](Resources/Original_Execution_Timing_2018.PNG)
+
 ![Refactored_Execution_Timing_2018](Resources/Refactored_Execution_Timing_2018.PNG)
 
 ## Summary
